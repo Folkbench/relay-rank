@@ -17,3 +17,9 @@
 - 默认不采集 github.io 站内访问量，不创建新的统计项目；回到主站后沿用现有 PostHog 归因。
 - 搜索验证可配置 GOOGLE_SITE_VERIFICATION、BING_SITE_VERIFICATION、BAIDU_SITE_VERIFICATION，均为公开验证标记；登录与 sitemap 提交由维护者完成。
 - 正常 Git hooks 需要 `FOLKBENCH_DISTRIBUTION_TOOL_ROOT` 指向上述固定版本的公共工具工作区，并设置 `core.hooksPath=.githooks`。
+
+## 徽章
+
+```markdown
+[![公开快照](https://folkbench.github.io/relay-rank/badge.svg)](https://folkbench.github.io/relay-rank/)
+```
