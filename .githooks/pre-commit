@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+: "${FOLKBENCH_DISTRIBUTION_TOOL_ROOT:?Set this to the reviewed Folkbench public tooling checkout}"
+exec bun "$FOLKBENCH_DISTRIBUTION_TOOL_ROOT/scripts/distribution/cli.ts" verify --root "$(git rev-parse --show-toplevel)" --kind relay --staged
