@@ -3,13 +3,28 @@
   "name": "relay-rank",
   "visibility": "public",
   "default_branch": "main",
-  "description": "由 Folkbench 维护的 AI API 中转站公开快照专题站",
+  "description": "由 Folkbench 维护的 AI API 中转站公开快照专题站 | AI中转站排行与中转站推荐：Claude / GPT / Gemini 各模型的API中转站公开快照（排序按站点规则，含合作档位与运营加权，部分数据为展示样本）",
   "homepage": "https://folkbench.github.io/relay-rank/",
   "topics": [
-    "llm",
     "ai-api",
-    "relay",
+    "ai-relay",
+    "api-proxy",
+    "api-relay",
+    "chatgpt",
+    "claude",
+    "claude-api",
+    "deepseek",
+    "folkbench",
+    "gemini",
+    "gpt",
+    "leaderboard",
+    "llm",
+    "llm-api",
+    "openai",
+    "openai-api",
     "public-data",
-    "folkbench"
+    "ranking",
+    "relay",
+    "relay-api"
   ]
 }
